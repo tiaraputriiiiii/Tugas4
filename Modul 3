@@ -1,0 +1,53 @@
+**Latihan 1: latihan1.py**
+1. Tampilkan n bilangan acak yang lebih kecil dari 0.5.
+2. nilai n diisi pada saat runtime
+3. anda bisa menggunakan kombinasi while dan for untuk menyelesaikannya
+4. gunakan fungsi random() yang dapat diimport terlebih dahulu
+
+   print ("masukan nilai N: 5 ")
+   import random
+     jumlah=5
+     a=0
+
+     for x in range (jumlah):
+          i = random.uniform (.0,.5)
+          a+=1
+          print('data ke :',a, '==>', i)
+
+     print("selesai")
+
+**Latihan 2: latihan2.py**
+Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
+    
+    print("menampilkan bilangan terbesar dari n buah data")
+    max=0
+    while True:
+        a=int(input("masukkan bilangan :"))
+        if max < a :
+           max = a
+        if a==0 :
+            break
+    print("bilangan terbesar adalah= ", max)
+
+**Praktikum 3**
+
+**Buat program sederhana dengan perulangan: program1.py**
+Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
+
+    a=1000000000
+    for x in range (1,9):
+        if(x>=1 and x<=2):
+            b=a*0
+            print("laba bulan ke-",x, ":", b)
+        if(x>=3 and x<=4):
+            c=a*0.1
+            print("laba bulan ke-",x, ":", c)
+        if(x>=5 and x<=7):
+            d=a*0.5
+            print("laba bulan ke-",x, ":", d)
+        if(x==8):
+            e=a*0.2
+            print("laba bulan ke-",x, ":", e)
+    total=b+b+c+c+d+d+d+e
+    print("\ntotal :", total)
+    
