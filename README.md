@@ -77,6 +77,10 @@ tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
 
 ![2022-11-06 (4)](https://user-images.githubusercontent.com/115775237/200157287-137b7579-35fb-4938-bab1-cf38ce8f43f1.png)
 
+**flowchart**
+
+![images 5](https://user-images.githubusercontent.com/115775237/200296900-03268b69-2d40-4589-80ca-546815801667.png)
+
 **Modul3**
 **Latihan 1: latihan1.py**
 1. Tampilkan n bilangan acak yang lebih kecil dari 0.5.
