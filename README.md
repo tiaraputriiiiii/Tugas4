@@ -134,6 +134,10 @@ Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputka
 
 ![2022-11-06 (6)](https://user-images.githubusercontent.com/115775237/200157454-130a9ee1-b0bd-446a-a17e-0f7affcace84.png)
 
+**Flowchart**
+
+![200491857-23239d93-dc61-49ed-95f4-534a4469c54c](https://user-images.githubusercontent.com/115775237/200523921-71ce79ed-7509-41d8-b874-9049c754a85c.png)
+
 # **Praktikum 3**
 
 Buat program sederhana dengan perulangan:
@@ -158,3 +162,8 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
     print("\ntotal :", total)
     
 ![2022-11-06 (7)](https://user-images.githubusercontent.com/115775237/200157479-2b49efa3-6ae3-43e5-aba8-9c9ccf92048d.png)
+
+**Flowchart**
+
+![200492739-0b575aa2-ee9d-411f-a768-46402ddd5a22](https://user-images.githubusercontent.com/115775237/200523654-91de6485-2606-4443-98d1-f5bbb40673e9.png)
+
