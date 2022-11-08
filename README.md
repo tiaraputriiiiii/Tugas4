@@ -1,7 +1,8 @@
 # Tugas4
-**Modul 2**
+# **Modul 2**
 
-**Latihan 1: Membuat program menentukan nilai akhir**
+# **Latihan 1:** 
+Membuat program menentukan nilai akhir
 
      nama = input("Masukkan nama:")
      uts = input("Masukkan nilai UTS:")
@@ -31,7 +32,9 @@
 
 ![2022-11-06 (1)](https://user-images.githubusercontent.com/115775237/200157183-218c14c5-d881-4345-9d5f-2eabffe37d10.png)
 
-**Latihan 2: Membuat program menampilkan status gaji karyawan.**
+# **Latihan 2:**
+
+Membuat program menampilkan status gaji karyawan.
 
     gaji = int(input("Masukkan gaji:"))
     berkeluarga = (False, True)[input("Sudah berkeluarga? (Y/T)") == "Y"]
@@ -51,7 +54,9 @@
 
 ![2022-11-06 (2)](https://user-images.githubusercontent.com/115775237/200157215-c4cb0a6b-740f-4450-96b0-82d12d0dbe46.png)
 
-**Latihan 3: penggunaan kondisi OR program membandingkan 3 input bilangan, apabila penjumlahan 2 bilangan hasilnya sama dengan bilangan lainnya, maka cetak pernyataan “BENAR”**
+# **Latihan 3:**
+
+penggunaan kondisi OR program membandingkan 3 input bilangan, apabila penjumlahan 2 bilangan hasilnya sama dengan bilangan lainnya, maka cetak pernyataan “BENAR”
 
      a = int(input("Masukkan bilangan A: "))
      b = int(input("Masukkan bilangan B: "))
@@ -63,25 +68,32 @@
       
 ![2022-11-06 (3)](https://user-images.githubusercontent.com/115775237/200157242-6198e26f-37a1-4f47-b177-b956056adb22.png)
   
-**Praktikum 2**
+# **Praktikum 2**
+
 Buat program sederhana dengan input tiga buah bilangan, dari ketiga bilangan
-tersebut tampilkan bilangan terbesarnya. Gunakan statement if. 
+tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
 
-    data =[]
-    for i in range (3):
-        x=int(input("masukkan bilangan :"))
-        data.append(x)
-    print ("data sebelum diurutkan :", data)
-    list.sort(data)
-    print ("data setelah diurutkan :", data)
+     a, b, c = (
+          int(input('Masukkan nilai a: ')),
+          int(input('Masukkan nilai b: ')),
+          int(input('Masukkan nilai c: '))
+     )
+     if a > b and a > c:
+          print('A yang terbesar')
+     elif b > a and b > c:
+          print('B yang terbesar')
+     else:
+          print('C yang terbesar')
 
-![2022-11-06 (4)](https://user-images.githubusercontent.com/115775237/200157287-137b7579-35fb-4938-bab1-cf38ce8f43f1.png)
+![2022-11-08 (2)](https://user-images.githubusercontent.com/115775237/200522792-18622659-df9d-4801-a63c-c0d7533ae534.png)
 
-**flowchart**
+**Flowchart**
 
-**Modul3**
+![200482321-1f6c21a7-2288-4347-8d52-f7d50f20dcc1](https://user-images.githubusercontent.com/115775237/200523091-2e92028d-de7d-41c5-a88f-032e74b04ec8.png)
 
-**Latihan 1: latihan1.py**
+# **Modul3**
+
+# **Latihan 1**
 
 1. Tampilkan n bilangan acak yang lebih kecil dari 0.5.
 2. nilai n diisi pada saat runtime
@@ -106,7 +118,8 @@ tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
 
 ![200483087-8c454d84-e476-4dd7-96a1-591ed611c4bf](https://user-images.githubusercontent.com/115775237/200520077-f251f0bf-350b-42d3-b67c-ea6f39c8a4ea.png)
 
-**Latihan 2: latihan2.py**
+# **Latihan 2**
+
 Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
     
     print("menampilkan bilangan terbesar dari n buah data")
@@ -121,9 +134,10 @@ Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputka
 
 ![2022-11-06 (6)](https://user-images.githubusercontent.com/115775237/200157454-130a9ee1-b0bd-446a-a17e-0f7affcace84.png)
 
-**Praktikum 3**
+# **Praktikum 3**
 
-**Buat program sederhana dengan perulangan: program1.py**
+Buat program sederhana dengan perulangan:
+
 Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
 
     a=1000000000
