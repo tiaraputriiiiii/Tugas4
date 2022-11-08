@@ -53,17 +53,13 @@
 
 **Latihan 3: penggunaan kondisi OR program membandingkan 3 input bilangan, apabila penjumlahan 2 bilangan hasilnya sama dengan bilangan lainnya, maka cetak pernyataan “BENAR”**
 
-     a, b, c = (
-          int(input('Masukkan nilai a: ')),
-          int(input('Masukkan nilai b: ')),
-          int(input('Masukkan nilai c: '))
-     )
-     if a > b and a > c:
-          print('A yang terbesar')
-     elif b > a and b > c:
-          print('B yang terbesar')
+     a = int(input("Masukkan bilangan A: "))
+     b = int(input("Masukkan bilangan B: "))
+     c = int(input("Masukkan bilangan C: "))
+     if a+b == c or b+c == a or c+a == b:
+          print("BENAR")
      else:
-          print('C yang terbesar')
+          print("SALAH")
       
 ![2022-11-06 (3)](https://user-images.githubusercontent.com/115775237/200157242-6198e26f-37a1-4f47-b177-b956056adb22.png)
   
@@ -105,6 +101,10 @@ tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
      print("selesai")
 
 ![2022-11-08 (1)](https://user-images.githubusercontent.com/115775237/200519047-0eaaa049-40c2-4283-8537-708b9a9b0e10.png)
+
+**flowchart**
+
+![200483087-8c454d84-e476-4dd7-96a1-591ed611c4bf](https://user-images.githubusercontent.com/115775237/200520077-f251f0bf-350b-42d3-b67c-ea6f39c8a4ea.png)
 
 **Latihan 2: latihan2.py**
 Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
