@@ -1,3 +1,7 @@
+# Nama : Tiara Putri
+# NIM : 312210064
+# Kelas : TI.22.A1
+
 # Tugas4
 # **Modul 2**
 
@@ -167,3 +171,4 @@ Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal a
 
 ![200492739-0b575aa2-ee9d-411f-a768-46402ddd5a22](https://user-images.githubusercontent.com/115775237/200523654-91de6485-2606-4443-98d1-f5bbb40673e9.png)
 
+# sekian terima kasih
